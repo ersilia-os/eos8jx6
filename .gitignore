@@ -1,3 +1,14 @@
+# Sub-models under model/checkpoints/models/ and model/checkpoints/reports.csv
+# ship via regular git. featurizer_weights_home/ is populated at install time
+# by `lazyqsar setup` (see install.yml) and is not committed.
+model/framework/fit/*
+!model/framework/fit/.gitkeep
+
+# Descriptor weights are downloaded at install time by `lazyqsar setup --descriptors`
+# (see install.yml). Don't commit the downloaded artifacts.
+model/checkpoints/featurizer_weights_home/*
+!model/checkpoints/featurizer_weights_home/.gitkeep
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

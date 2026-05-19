@@ -1,1 +1,34 @@
 name,type,direction,description
+consensus_score,float,high,Tanh-transformed quality-weighted consensus probability across the 32 sub-models. Recommended threshold: 0.957.
+individual_ec50_decoys,float,high,Probability from sub-model trained on ChEMBL assay CHEMBL1614164 (EC50; cutoff 10 uM; n=10870 incl. decoys). Recommended threshold: 0.769.
+individual_mic_decoys_b,float,high,Probability from sub-model trained on ChEMBL assay CHEMBL3266258 (MIC; cutoff 10 uM; n=1110 incl. decoys). Recommended threshold: 0.898.
+individual_mic_decoys_a,float,high,Probability from sub-model trained on ChEMBL assay CHEMBL3266259 (MIC; cutoff 10 uM; n=1060 incl. decoys). Recommended threshold: 0.888.
+merged_mic80_decoys_a,float,high,Probability from sub-model trained on MIC80 measurements merged across 12 ChEMBL assays (cutoff 10 uM; n=3180 incl. decoys). Recommended threshold: 0.882.
+merged_iz_decoys_b,float,high,Probability from sub-model trained on inhibition zone diameter measurements merged across 10 ChEMBL assays (cutoff 10 mm; n=2070 incl. decoys). Recommended threshold: 0.892.
+merged_mic50_decoys_a,float,high,Probability from sub-model trained on MIC50 measurements merged across 13 ChEMBL assays (cutoff 10 uM; n=1600 incl. decoys). Recommended threshold: 0.893.
+merged_mic80_decoys_c,float,high,Probability from sub-model trained on MIC80 measurements merged across 3 ChEMBL assays (cutoff 10 uM; n=1590 incl. decoys). Recommended threshold: 0.881.
+merged_mic80_decoys_b,float,high,Probability from sub-model trained on MIC80 measurements merged across 7 ChEMBL assays (cutoff 10 uM; n=1480 incl. decoys). Recommended threshold: 0.866.
+merged_mic_decoys_d,float,high,Probability from sub-model trained on MIC measurements merged across 8 ChEMBL assays (cutoff 10 uM; n=1430 incl. decoys). Recommended threshold: 0.856.
+merged_iz_decoys_d,float,high,Probability from sub-model trained on inhibition zone diameter measurements merged across 12 ChEMBL assays (cutoff 10 mm; n=1260 incl. decoys). Recommended threshold: 0.846.
+merged_iz_decoys_c,float,high,Probability from sub-model trained on inhibition zone diameter measurements merged across 11 ChEMBL assays (cutoff 10 mm; n=1170 incl. decoys). Recommended threshold: 0.864.
+merged_mic_decoys_c,float,high,Probability from sub-model trained on MIC measurements merged across 7 ChEMBL assays (cutoff 10 uM; n=1120 incl. decoys). Recommended threshold: 0.858.
+merged_mic50_decoys_b,float,high,Probability from sub-model trained on MIC50 measurements merged across 6 ChEMBL assays (cutoff 10 uM; n=1080 incl. decoys). Recommended threshold: 0.888.
+merged_mic_decoys_b,float,high,Probability from sub-model trained on MIC measurements merged across 4 ChEMBL assays (cutoff 10 uM; n=980 incl. decoys). Recommended threshold: 0.894.
+merged_mic_decoys_f,float,high,Probability from sub-model trained on MIC measurements merged across 8 ChEMBL assays (cutoff 20 uM; n=940 incl. decoys). Recommended threshold: 0.850.
+merged_mic_decoys_e,float,high,Probability from sub-model trained on MIC measurements merged across 7 ChEMBL assays (cutoff 20 uM; n=870 incl. decoys). Recommended threshold: 0.836.
+merged_mic80_decoys_d,float,high,Probability from sub-model trained on MIC80 measurements merged across 13 ChEMBL assays (cutoff 20 uM; n=830 incl. decoys). Recommended threshold: 0.866.
+merged_mic_decoys_a,float,high,Probability from sub-model trained on MIC measurements merged across 5 ChEMBL assays (cutoff 10 uM; n=800 incl. decoys). Recommended threshold: 0.840.
+merged_iz_decoys_a,float,high,Probability from sub-model trained on inhibition zone diameter measurements merged across 10 ChEMBL assays (cutoff 10 mm; n=740 incl. decoys). Recommended threshold: 0.873.
+merged_ic50_decoys,float,high,Probability from sub-model trained on IC50 measurements merged across 6 ChEMBL assays (cutoff 10 uM; n=710 incl. decoys). Recommended threshold: 0.848.
+merged_gi_decoys,float,high,Probability from sub-model trained on growth inhibition % measurements merged across 10 ChEMBL assays (cutoff 25%; n=680 incl. decoys). Recommended threshold: 0.881.
+general_mic,float,high,Probability from sub-model trained on MIC measurements aggregated across 3859 ChEMBL assays (cutoff 10 uM; n=21444). Recommended threshold: 0.727.
+general_mic80_decoys,float,high,Probability from sub-model trained on MIC80 measurements aggregated across 529 ChEMBL assays (cutoff 10 uM; n=13710 incl. decoys). Recommended threshold: 0.869.
+general_ec50_decoys,float,high,Probability from sub-model trained on EC50 measurements aggregated across 18 ChEMBL assays (cutoff 10 uM; n=11000 incl. decoys). Recommended threshold: 0.762.
+general_inhibition,float,high,Probability from sub-model trained on inhibition % measurements aggregated across 318 ChEMBL assays (cutoff 50%; n=5718). Recommended threshold: 0.903.
+general_iz,float,high,Probability from sub-model trained on inhibition zone diameter measurements aggregated across 833 ChEMBL assays (cutoff 20 mm; n=4907). Recommended threshold: 0.678.
+general_activity_decoys,float,high,Probability from sub-model trained on single-point % activity across 658 ChEMBL assays (cutoff 50%; n=2440 incl. decoys). Recommended threshold: 0.826.
+general_ic50,float,high,Probability from sub-model trained on IC50 measurements aggregated across 285 ChEMBL assays (cutoff 10 uM; n=1516). Recommended threshold: 0.599.
+general_gi_decoys,float,high,Probability from sub-model trained on growth inhibition % measurements aggregated across 270 ChEMBL assays (cutoff 50%; n=1390 incl. decoys). Recommended threshold: 0.856.
+general_mic50,float,high,Probability from sub-model trained on MIC50 measurements aggregated across 379 ChEMBL assays (cutoff 10 uM; n=1111). Recommended threshold: 0.568.
+general_mic90,float,high,Probability from sub-model trained on MIC90 measurements aggregated across 185 ChEMBL assays (cutoff 10 uM; n=867). Recommended threshold: 0.755.
+pubchem_a,float,high,Probability from sub-model trained on PubChem bioassay AID 485275 (n=329010). Recommended threshold: 0.787.
