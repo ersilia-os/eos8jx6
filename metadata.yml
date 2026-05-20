@@ -1,9 +1,14 @@
 Identifier: eos8jx6
 Slug: antimicrobial-activity-calbicans
 Status: In progress
-Title: Antimicrobial activity prediction against Candida albicans from public ChEMBL and PubChem data
-Description: >
-  Bioactivity prediction of growth inhibition in Candida albicans, trained as binary (active/inactive) classifiers from publicly available data in ChEMBL and PubChem. Independent models are trained on multiple bioactivity datasets, corresponding to single-point (percent inhibition) and dose-response (MIC) assays, among others. A ranking score is provided for each model alongside a combined consensus score.
+Title: Antimicrobial activity prediction against Candida albicans from public 
+  ChEMBL and PubChem data
+Description: Bioactivity prediction of growth inhibition in Candida albicans, 
+  trained as binary (active/inactive) classifiers from publicly available data 
+  in ChEMBL and PubChem. Independent models are trained on multiple bioactivity 
+  datasets, corresponding to single-point (percent inhibition) and dose-response
+  (MIC) assays, among others. A ranking score is provided for each model 
+  alongside a combined consensus score.
 Deployment:
   - Local
   - Online
@@ -18,7 +23,9 @@ Output:
   - Score
 Output Dimension: 33
 Output Consistency: Fixed
-Interpretation: Probability of antimicrobial activity against Candida albicans from 32 ChEMBL- and PubChem-trained sub-models, plus a quality-weighted consensus score.
+Interpretation: Probability of antimicrobial activity against Candida albicans 
+  from 32 ChEMBL- and PubChem-trained sub-models, plus a quality-weighted 
+  consensus score.
 Tag:
   - Antimicrobial activity
   - ChEMBL
@@ -32,3 +39,4 @@ Publication: https://github.com/ersilia-os/chembl-antimicrobial-models
 Source Code: https://github.com/ersilia-os/chembl-antimicrobial-models
 License: GPL-3.0-or-later
 Contributor: arnaucoma24
+Incorporation Date: '2026-05-19'
