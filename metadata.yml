@@ -22,7 +22,9 @@ Output:
   - Score
 Output Dimension: 35
 Output Consistency: Fixed
-Interpretation: Probability of antimicrobial activity against Candida albicans from 34 ChEMBL- and PubChem-trained sub-models, plus a quality-weighted consensus score.
+Interpretation: Probability of antimicrobial activity against Candida albicans 
+  from 34 ChEMBL- and PubChem-trained sub-models, plus a quality-weighted 
+  consensus score.
 Tag:
   - Antimicrobial activity
   - ChEMBL
