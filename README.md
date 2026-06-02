@@ -50,12 +50,12 @@ _10 of 35 columns are shown_
 ### Resource Consumption
 - **Model Size (Mb):** `647`
 - **Environment Size (Mb):** `1896`
-- **Image Size (Mb):** `3156.28`
+- **Image Size (Mb):** `3017.87`
 
 **Computational Performance (seconds):**
-- 10 inputs: `66.78`
-- 100 inputs: `63.4`
-- 10000 inputs: `-1`
+- 10 inputs: `56.86`
+- 100 inputs: `56.92`
+- 10000 inputs: `1660.93`
 
 ### References
 - **Source Code**: [https://github.com/ersilia-os/chembl-antimicrobial-models](https://github.com/ersilia-os/chembl-antimicrobial-models)
