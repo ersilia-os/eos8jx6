@@ -1,6 +1,6 @@
 # Antimicrobial activity prediction against Candida albicans from public ChEMBL and PubChem data
 
-Estimates antifungal activity against Candida albicans, the commonest cause of invasive candidiasis and an organism for which only a few drug classes exist. Seventeen classifiers were trained across separate ChEMBL and PubChem assay pools, giving broader coverage than most non-bacterial targets receive, and their outputs feed a quality-weighted consensus. Fungal cells share eukaryotic machinery with the host, so predicted activity warrants a cytotoxicity counter-screen.
+Bioactivity prediction of growth inhibition in Candida albicans, trained as binary (active/inactive) classifiers from publicly available data in ChEMBL and PubChem. Independent models are trained on multiple bioactivity datasets, corresponding to single-point (Inhibition) and dose-response (MIC) assays, among others. A ranking score is provided for each model alongside a combined consensus score.
 
 This model was incorporated on 2026-05-19.Last packaged on 2026-07-22.
 
@@ -23,7 +23,7 @@ This model was incorporated on 2026-05-19.Last packaged on 2026-07-22.
 ### Output
 - **Output Dimension:** `18`
 - **Output Consistency:** `Fixed`
-- **Interpretation:** Probability of Candida albicans growth inhibition across seventeen sub-models, plus a weighted consensus.
+- **Interpretation:** Probability of antimicrobial activity against Candida albicans from 17 ChEMBL- and PubChem-trained sub-models, plus a quality-weighted consensus score.
 
 Below are the **Output Columns** of the model:
 | Name | Type | Direction | Description |
