@@ -28,8 +28,8 @@
     "sparsity": 0.4442252734473398,
     "is_sparse_counts": false,
     "binary_feature_fraction": 0.0005770340450086555,
-    "feature_signal_strength": 0.07844892489725527,
-    "feature_signal_p90": 0.16856086019728866,
+    "feature_signal_strength": 0.07844892489678082,
+    "feature_signal_p90": 0.16856085980868954,
     "task": "classification",
     "imbalance_ratio": 1.6457564575645756,
     "y_skewness": 0.0,
@@ -39,12 +39,12 @@
     "flaml": NaN,
     "autogluon": NaN,
     "heuristic": 0.8846364883401922,
-    "default": 0.8831275720164609
+    "default": 0.8855967078189301
   },
   "decision_cutoff_raw": 0.24523785710334778,
   "decision_cutoff_raw_source": "oof_balanced_accuracy",
   "decision_cutoff_proba": 0.2683141004606299,
-  "decision_cutoff_rank": 0.5698324022346369,
+  "decision_cutoff_rank": 0.5697350069735007,
   "decision_cutoff_logit": -1.0031930120024077,
   "calibrator": {
     "method": "platt",

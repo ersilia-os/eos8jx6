@@ -7,7 +7,7 @@
   "decision_cutoff_raw": 0.05,
   "decision_cutoff_raw_source": "oof_balanced_accuracy",
   "decision_cutoff_proba": 0.010847209134321467,
-  "decision_cutoff_rank": 0.9806384092098378,
+  "decision_cutoff_rank": 0.9769874476987448,
   "decision_cutoff_logit": -4.512940985692976,
   "calibrator": {
     "method": "platt",

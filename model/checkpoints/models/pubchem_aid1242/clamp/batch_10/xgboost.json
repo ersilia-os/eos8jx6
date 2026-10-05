@@ -32,8 +32,8 @@
     "sparsity": 0.0,
     "is_sparse_counts": false,
     "binary_feature_fraction": 0.0,
-    "feature_signal_strength": 0.04952026181964676,
-    "feature_signal_p90": 0.09832774236111265,
+    "feature_signal_strength": 0.04952026172509755,
+    "feature_signal_p90": 0.09832773852185062,
     "task": "classification",
     "imbalance_ratio": 99.6842105263158,
     "y_skewness": 0.0,
@@ -47,13 +47,13 @@
   },
   "decision_cutoff_raw": 0.0032041536178439856,
   "decision_cutoff_raw_source": "oof_balanced_accuracy",
-  "decision_cutoff_proba": 0.009432143271822943,
-  "decision_cutoff_rank": 0.8399581589958158,
-  "decision_cutoff_logit": -4.654155018249522,
+  "decision_cutoff_proba": 0.00943214290354779,
+  "decision_cutoff_rank": 0.8397804495556718,
+  "decision_cutoff_logit": -4.654155057665999,
   "calibrator": {
     "method": "platt",
-    "coef": 3.6683323569909287,
-    "intercept": -4.665908918642629
+    "coef": 3.6683322349143808,
+    "intercept": -4.665908957667954
   },
   "ranker": {
     "knots": [
@@ -321,7 +321,6 @@
       0.0008398271747864783,
       0.0008400328224524856,
       0.00084046641131863,
-      0.0008405420230701566,
       0.0008410303853452206,
       0.0008424135739915073,
       0.0008424367406405509,
@@ -355,6 +354,7 @@
       0.0008629180956631899,
       0.0008631228702142835,
       0.0008639477309770882,
+      0.0008640028536319733,
       0.0008642704924568534,
       0.0008645896450616419,
       0.0008662941982038319,

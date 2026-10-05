@@ -26,11 +26,11 @@
     "n_samples": 168676,
     "n_features": 768,
     "n_p_ratio": 219.63020833333334,
-    "sparsity": 0.0,
+    "sparsity": 2.3158303493087338e-08,
     "is_sparse_counts": false,
     "binary_feature_fraction": 0.0,
-    "feature_signal_strength": 0.0203894642030655,
-    "feature_signal_p90": 0.04005513686505618,
+    "feature_signal_strength": 0.020389464245245976,
+    "feature_signal_p90": 0.040055137515814,
     "task": "classification",
     "imbalance_ratio": 64.22660479505026,
     "y_skewness": 0.0,
@@ -39,13 +39,13 @@
   "portfolio_scores": {
     "flaml": NaN,
     "autogluon": NaN,
-    "heuristic": 0.18350884630890432,
-    "default": 0.20893545348780923
+    "heuristic": 0.18350653714747223,
+    "default": 0.22179016010906047
   },
   "decision_cutoff_raw": 0.09661293774843216,
   "decision_cutoff_raw_source": "oof_balanced_accuracy",
   "decision_cutoff_proba": 0.017094017094017096,
-  "decision_cutoff_rank": 0.8517851785178518,
+  "decision_cutoff_rank": 0.85175,
   "decision_cutoff_logit": -4.051784947803305,
   "calibrator": {
     "method": "isotonic",
