@@ -2,7 +2,7 @@
 
 Bioactivity prediction of growth inhibition in Candida albicans, trained as binary (active/inactive) classifiers from publicly available data in ChEMBL and PubChem. Independent models are trained on multiple bioactivity datasets, corresponding to single-point (Inhibition) and dose-response (MIC) assays, among others. A ranking score is provided for each model alongside a combined consensus score.
 
-This model was incorporated on 2026-05-19.Last packaged on 2026-07-22.
+This model was incorporated on 2026-05-19.Last packaged on 2026-10-06.
 
 ## Information
 ### Identifiers
@@ -50,11 +50,11 @@ _10 of 18 columns are shown_
 ### Resource Consumption
 - **Model Size (Mb):** `704`
 - **Environment Size (Mb):** `7982`
-- **Image Size (Mb):** `7952.88`
+- **Image Size (Mb):** `8749.17`
 
 **Computational Performance (seconds):**
-- 10 inputs: `81.54`
-- 100 inputs: `82.49`
+- 10 inputs: `77.1`
+- 100 inputs: `70.73`
 - 10000 inputs: `-1`
 
 ### References
