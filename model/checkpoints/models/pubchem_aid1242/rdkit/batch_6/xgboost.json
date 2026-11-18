@@ -17,7 +17,7 @@
     "reg_alpha": 0.0,
     "reg_lambda": 1.0,
     "max_bin": 256,
-    "nthread": 64,
+    "nthread": 56,
     "objective": "binary:logistic",
     "scale_pos_weight": 99.6842,
     "max_delta_step": 1,
@@ -50,7 +50,7 @@
   "decision_cutoff_logit": -4.785917255599873,
   "calibrator": {
     "method": "platt",
-    "coef": 4.437955474465291,
+    "coef": 4.437955474465292,
     "intercept": -4.809310077853642
   },
   "ranker": {

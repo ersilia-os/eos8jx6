@@ -1,4 +1,5 @@
 {
+    "task": "classification",
     "portfolio": [
         "xgb",
         "rf"
@@ -11,7 +12,7 @@
         0.015331167445279709,
         0.015331167445279709
     ],
-    "decision_cutoff_raw": 0.06406950476960233,
+    "decision_cutoff_raw": 0.06406950476960234,
     "decision_cutoff_proba": 0.01627727921573723,
     "decision_cutoff_oof_percentile": 0.7859559885693164,
     "decision_cutoff_logit": -4.101573847254634,

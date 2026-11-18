@@ -19,7 +19,7 @@
     "reg_lambda": 2.0,
     "gamma": 0.05,
     "max_bin": 128,
-    "nthread": 64,
+    "nthread": 56,
     "objective": "binary:logistic",
     "scale_pos_weight": 99.6316,
     "max_delta_step": 1,
@@ -32,8 +32,8 @@
     "sparsity": 0.5018761538303164,
     "is_sparse_counts": false,
     "binary_feature_fraction": 0.0,
-    "feature_signal_strength": 0.03739578628274019,
-    "feature_signal_p90": 0.079260133002717,
+    "feature_signal_strength": 0.037395786612033674,
+    "feature_signal_p90": 0.07926013431183862,
     "task": "classification",
     "imbalance_ratio": 99.63157894736842,
     "y_skewness": 0.0,
@@ -47,13 +47,13 @@
   },
   "decision_cutoff_raw": 0.016818692907691002,
   "decision_cutoff_raw_source": "oof_balanced_accuracy",
-  "decision_cutoff_proba": 0.009275736369857695,
+  "decision_cutoff_proba": 0.00927573649006614,
   "decision_cutoff_rank": 0.9542364016736402,
-  "decision_cutoff_logit": -4.671034256760625,
+  "decision_cutoff_logit": -4.67103424367984,
   "calibrator": {
     "method": "platt",
-    "coef": 4.414375357451202,
-    "intercept": -4.745278280276875
+    "coef": 4.414375378742538,
+    "intercept": -4.745278267554183
   },
   "ranker": {
     "knots": [
@@ -401,6 +401,7 @@
       0.0009805490262806416,
       0.0009816940873861313,
       0.0009852241491898894,
+      0.0009854049421846867,
       0.0009865147294476628,
       0.0009867558255791664,
       0.0009889911161735654,
@@ -408,7 +409,6 @@
       0.000990723492577672,
       0.0009909746004268527,
       0.000992588116787374,
-      0.0009926178026944399,
       0.0009932999964803457,
       0.0009938423754647374,
       0.0009939877782016993,
